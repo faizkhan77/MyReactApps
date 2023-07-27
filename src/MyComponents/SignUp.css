@@ -1,0 +1,60 @@
+.mainbody{
+    /* background-color: grey; */
+    margin-top: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+.mainbody:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 
+    0 25px 60px 0 rgba(0,0,0,0.19);
+}
+
+body{
+    background-color: rgb(144, 94, 190);
+}
+
+#font{
+    color: #ffffff;
+    font-size: 50px;
+}
+#font:hover{
+    text-shadow: 2px 2px 10px rgb(65, 5, 175);
+}
+
+.inputbox{
+    width: 200px;
+    height: 25px;
+    border-color: #631cd6;
+    border-radius: 30px;
+    background-color: #9671f5;
+    color: white;
+}
+
+.inputbox:hover {
+    background-color: #631cd6;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 
+    0 25px 60px 0 rgba(0,0,0,0.19);
+}
+
+.inputbox::placeholder {
+    color: white; /* Change the placeholder color to white */
+  }
+
+.mybtn {
+    height: 40px;
+    width: 160px;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: white;
+    background-color: #6a24db;
+}
+
+.mybtn:hover {
+    background-color: #2a016d;
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 
+    0 25px 60px 0 rgba(0,0,0,0.19);
+}
