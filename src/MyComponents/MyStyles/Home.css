@@ -1,0 +1,17 @@
+.logins{
+    color:aliceblue
+}
+
+.mainbody{
+    margin-top: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+.mainbody:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 
+    0 25px 60px 0 rgba(0,0,0,0.19);
+}
